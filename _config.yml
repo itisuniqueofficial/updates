@@ -1,0 +1,35 @@
+title: "Updates By It Is Unique Official"
+description: "Latest updates and news from It Is Unique Official"
+url: "https://itisuniqueofficial.github.io/updates"
+baseurl: "/updates"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-archives
+
+# Pagination settings
+paginate: 10
+paginate_path: "/page:num/"
+
+# SEO
+twitter_username: itisunique_x
+github_username:  itisuniqueofficial
+
+# Sitemap
+defaults:
+  - scope:
+      path: ""
+    values:
+      sitemap: true
+
+# Exclude unnecessary files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
