@@ -5,6 +5,7 @@ baseurl: "/updates"
 
 # Build settings
 theme: minima
+permalink: /:categories/:year/:month/:title/  # Removes .html from URLs
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -17,7 +18,7 @@ paginate: 10
 paginate_path: "/page:num/"
 
 # SEO
-twitter_username: itisunique_x
+twitter_username: itisuniqueofficial
 github_username:  itisuniqueofficial
 
 # Sitemap
